@@ -3,7 +3,6 @@ from pygments import highlight
 from pygments.lexers import get_lexer_by_name
 from pygments.formatters import html
 
-
 class HighlightRenderer(mistune.Renderer):
     def block_code(self, code, lang=None):
         if not lang:
@@ -16,6 +15,6 @@ class HighlightRenderer(mistune.Renderer):
 
 renderer = HighlightRenderer()
 markdown = mistune.Markdown(renderer=renderer)
-file = open("/Users/yuanxiansen/Desktop/school_affair/Y2:1/CSE101/ASS/ASS3/README.md", "rb")
+file = open("/Users/yuanxiansen/Desktop/test1.txt", "rb")
 string_result = file.read().decode("utf-8")
 print(markdown(string_result))
