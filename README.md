@@ -3,7 +3,7 @@ markdown parser, being used to my blog markdown parser.
 
 ## Lexer is inherited from mistune
 
-=====
+---
 
 ### some function could not be implemented now
 
