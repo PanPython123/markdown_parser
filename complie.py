@@ -12,9 +12,8 @@ class HighlightRenderer(mistune.Renderer):
         formatter = html.HtmlFormatter()
         return highlight(code, lexer, formatter)
 
-
 renderer = HighlightRenderer()
 markdown = mistune.Markdown(renderer=renderer)
-file = open("/Users/yuanxiansen/Desktop/test1.txt", "rb")
+file = open("/Users/yuanxiansen/Desktop/Temp/markdown_example/test.txt", "rb")
 string_result = file.read().decode("utf-8")
 print(markdown(string_result))
