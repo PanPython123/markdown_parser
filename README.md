@@ -1,7 +1,9 @@
 # markdown_parser
 markdown parser, being used to my blog markdown parser.
 
-## Lexer is inherited from mistune
+## Parser is inherited from [
+
+Paresr is from [mistune](https://github.com/lepture/mistune)
 
 ---
 
@@ -14,7 +16,7 @@ markdown parser, being used to my blog markdown parser.
 
 ## CSS 
 
-- css is based on [andyferra]: https://gist.github.com/andyferra/2554919 after some modification 
+- css is based on [andyferra](https://gist.github.com/andyferra/2554919) after some modification
 
 
 
