@@ -7,7 +7,7 @@ markdown parser, being used to my blog markdown parser.
 
 -----
 
-## Parser is inherited from [
+## Parser is inherited from 
 
 Paresr is from [mistune](https://github.com/lepture/mistune)
 
